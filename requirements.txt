@@ -1,0 +1,14 @@
+project
+├─ backend
+│  ├─ app.py         - FR-1, FR-2, FR-3, FR-4, FR-5 (partial), FR-6 (partial), FR-789 (report generation), FR-10 (partial), FR-11 (partial)
+│  ├─ models.py      - FR-2, FR-3, FR-4, FR-11 (data models  persistence)
+│  ├─ database.py    - FR-2, FR-3, FR-11 (DB init & session)
+│  ├─ auth.py        - FR-1 (full logic for auth hashing, JWT, role check)
+│  ├─ requirements.txt- (dependencies)
+│  └─ Dockerfile     - (runs backend)
+├─ frontend
+│  ├─ app.py         - FR-1 (loginregister UI), FR-2 (profile UI), FR-3 (purchase UI mock), FR-4 (upload UI), 
+│  │                    FR-789 (report viewer + download)
+│  ├─ requirements.txt- (dependencies)
+│  └─ Dockerfile     - (runs frontend)
+└─ docker-compose.yml - Orchestrates frontend + backend (enables local end-to-end demo)
