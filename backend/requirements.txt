@@ -1,0 +1,11 @@
+fastapi==0.102.0
+uvicorn[standard]==0.21.1
+sqlmodel==0.0.8
+passlib[bcrypt]==1.7.5
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.6
+python-docx==0.8.11
+pdfminer.six==20221105
+reportlab==3.6.12
+pydantic==1.10.9
+apscheduler==3.10.1
